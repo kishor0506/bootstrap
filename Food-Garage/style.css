@@ -1,0 +1,61 @@
+/* Global */
+
+html,
+body {
+  margin: 0;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 300;
+  scroll-behavior: smooth;
+}
+
+h1 h2 h3 h4{
+  font-weight: 400;
+}
+
+/* Header */
+header {
+  background-image: linear-gradient(#00000090,#00000090), url(images/header.jpg);
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  height: 100vh;
+}
+
+.logo{
+  height: 40px;
+}
+.lead{
+  font-weight: 400;
+}
+
+.nav-item a{
+  font-weight: 500;
+}
+
+.nav-item a:hover{
+  animation: tada;
+  animation-duration: 1.5s;
+}
+
+.header-center{
+  color: darkgray;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  text-transform: uppercase;
+}
+.section-title{
+  font-weight: 500;
+}
+/* online */
+
+#online_order{
+  background-color: #d5d5d5;
+}
+.fg-mobile{
+  max-width:300px ;
+}
+.app-download{
+  max-width:175px ;
+}
